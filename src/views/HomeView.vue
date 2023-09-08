@@ -1,6 +1,9 @@
 <template>
+  <div style="margin-top: 0px;">
+    <navbarLogin msg="Plaese Login before Use"/>
+  </div>
   <div class="home">
-    <img alt="Vue logo" src="../assets/HandLogo.png">
+    <img alt="Vue logo" src="../assets/011.webp">
   </div>
   <div style="margin-top: 20px;">
     <LoginPage msg="Plaese Login before Use"/>
@@ -10,11 +13,13 @@
 <script>
 // @ is an alias to /src
 import LoginPage from '@/components/Login.vue'
+import navbarLogin from '@/components/navbarLogin.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    LoginPage
+    LoginPage,
+    navbarLogin
   }
 }
 </script>
