@@ -3,7 +3,7 @@
     <navbarLogin msg="Plaese Login before Use"/>
   </div>
   <div class="home">
-    <img alt="Vue logo" src="../assets/011.webp">
+    <img alt="Vue logo" src="../assets/HandLogo.webp">
   </div>
   <div style="margin-top: 20px;">
     <LoginPage msg="Plaese Login before Use"/>
