@@ -3,11 +3,11 @@
     <h1 style="text-align: center;">Login</h1>
     <form @submit.prevent="login">
       <div class="form-group">
-        <label for="username">Username:</label>
+        <label for="username">Username</label>
         <input type="text" id="username" v-model="username" required>
       </div>
       <div class="form-group">
-        <label for="password">Password:</label>
+        <label for="password">Password</label>
         <input type="password" id="password" v-model="password" required>
       </div>
       <button type="submit">Login</button>
@@ -43,12 +43,14 @@ export default {
 </script>
 
 <style scoped>
+
 .login-container {
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
+  padding: 10px;
+  border: 2px solid #6a6a6a;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .form-group {
@@ -58,21 +60,35 @@ export default {
 label {
   display: block;
   margin-bottom: 5px;
+  
+  
 }
 
 input {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
+  width: 90%;
+  height: 25px;
+  padding: 0px;
+  border: 2px solid #afafaf;
   border-radius: 3px;
+  position: relative;
+  padding-left: 5px;
 }
 
 button {
-  background-color: #007bff;
+  background-color: #000000;
   color: #fff;
-  padding: 10px 15px;
-  border: none;
+  padding: 8px 15px;
+  border: 2px solid #ffffff;
   border-radius: 3px;
   cursor: pointer;
+  
 }
+
+button:hover{
+  background-color:#ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  transition: 0.3s;
+}
+
 </style>
