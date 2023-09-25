@@ -4,11 +4,8 @@ import Profile from '../views/ProfileView.vue'
 import HomeComponent from '../components/Home.vue'
 import Register from '../components/register.vue'
 import Login from '../components/Login.vue'
-<<<<<<< HEAD
 import DetailPage from '../components/DetailEachRoom.vue'
 import BlankPage from '../components/BlankPage.vue'
-=======
->>>>>>> 58b60b900071cf6160f9cecee99de9cc964959ac
 
 
 const routes = [
@@ -38,7 +35,6 @@ const routes = [
     component:HomeComponent,
   },
   {
-<<<<<<< HEAD
     path:'/DetailPage',
     name:'DetailPage',
     component:DetailPage,
@@ -63,8 +59,6 @@ const routes = [
     ],
   },
   {
-=======
->>>>>>> 58b60b900071cf6160f9cecee99de9cc964959ac
     path: '/about',
     name: 'about',
     // route level code-splitting
